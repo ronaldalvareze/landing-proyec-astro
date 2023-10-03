@@ -1,0 +1,50 @@
+---
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="features">
+    <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12">
+        
+        <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+            <Title>
+                Alcance del producto
+            </Title>
+            <Paragraph className="mt-8">
+                El alcance que tendrá este proyecto, será el de darle organización de manera ágil y muy simplificada a las empresas de transporte local, con manejo moderno de la información de traslado del municipio; dando a conocer al usuario de manera fácil horario de salida destinos y cupos disponibles, dándole la posibilidad de reservarlo en algún caso puntual. También podrá conocer de primera mano el carnet del despachador, para evitar posibles engaños por parte de terceros; teniendo la  claridad en cuanto al precio del servicio y sus conductores; como también contará con el servicio de publicidad para sostener el proyecto. 
+                
+            </Paragraph>
+            
+            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Referencias
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center"></span> Como referencia para este proyecto nos basamos en el conocimiento que se obtuvo durante 6 años.  En donde se laboró en el área de vendedor de servicio donde  se observó un problema en cuanto a los horarios,la responsabilidad de los conductores; a la claridad en cuanto a los precios y el poco conocimiento que se tiene por parte del usuario para adquirir un servicio vehicular hacia los municipios aledaños, suburbanos y rurales.
+
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Descripción General
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center"></span> RUMBO será un aplicativo web, construido con tecnologías nuevas y muy utilizadas en el mundo de los desarrolladores, por lo que será un aplicativo multifuncional que se podrá divisar en las múltiples plataformas y equipos conocidos; como también se tendrán en cuenta una interfaz muy dinámica intuitiva, dado a que la llevará  iconos y figuras para el fácil reconocimiento de los usuarios.
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="max-w-md mx-auto midmd:max-w-none lg:mx-0  lg:pr-10 xl:pr-2 flex-1 flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto">
+            <div class="w-full h-80 sm:h-96 midmd:h-full relative">
+                <div class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-to-br from-primary to-orange-400 blur-3xl opacity-50"></div>
+                <div class="absolute  p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-to-br from-primary to-orange-400 rounded-full blur-3xl opacity-60"></div>
+                
+                <span class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-tr from-primary to-green-400 opacity-40 blur-2xl left-0 bottom-0"></span>
+                <img src={"/images/cootransgar.jpeg"} alt="transporte" 
+                width="1240" height="1385"
+                class=" w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full" />
+            </div>
+        </div>
+    </Container>
+</section>

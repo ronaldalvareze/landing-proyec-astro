@@ -1,0 +1,62 @@
+---
+import Service from "../cards/Service.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="services">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <h1 class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight
+            font-bold text-heading-1">
+            lo  <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Que</span> Ofrecemos
+           </h1>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <Service title="Modernizacion" description="Se busca modernizar de manera prioritaria las empresas de transportes mediante la adopción de las nuevas tecnologías.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Incorporar" description="A los usuarios para que tengan claridad,conocimiento y Mejorar la percepción del servicio de transporte en cuanto a los horarios y precios. ">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Intelecto" description="Ayudar al transportador en cuanto a claridad de horarios de despachos de vehiculos,seguridad y precios. ">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Motivar" description="El crecimiento empresarial con buenas practicas en pro de los usuarios en el conocimiento de una ruta segura y se brindara servicio publicitario para apoyar el comercio.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Facilitar" description="En gran medida la labor del despacho,dado a que se dara de manera electronica con los estandares de seguridad.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Gestionar" description="Administrar de manera ajil, la informacion para que sea facil de interpretar por parte de los usuarios.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+        </div>
+    </Container>
+</section>

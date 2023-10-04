@@ -10,50 +10,53 @@ import SigninSlider from "@layouts/function-components/SigninSlider.jsx";
         <div class="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
           <div class="mx-auto w-full max-w-[480px]">
             <img class="mb-8" src="/images/sigin-des.png" alt="" />
-            <h1 class="mb-4">Ingreso despachador</h1>
-            <p>Recuerda eres muy importante para nosotros</p>
+            <h1 class="mb-4">Ingresa tu ruta</h1>
+            <p>Solo el camino seguro te lleva a los tuyos</p>
             <div
               class="relative my-8 text-center after:absolute after:left-0 after:top-1/2 after:z-[0] after:w-full after:border-b after:border-border after:content-['']"
             >
               <span class="relative z-[1] inline-block bg-white px-2"
-                >Ingresa tu Email</span
+                >Lugar,hora,conductor,destino,placa del vehiculo todo en un click</span
               >
             </div>
 
             <form action="#">
               <div class="form-group">
-                <label for="email" class="form-label">Email Adrdess</label>
+                <label for="name" class="form-label">Ciudad o Municipio</label>
                 <input
-                  type="email"
-                  id="email"
+                  type="text"
+                  id="city"
                   class="form-control"
-                  placeholder="Your Email Address"
+                  placeholder="Digita tu Origen ejemplo: Garzon"
+                />
+                <label for="name" class="form-label">Destino</label>
+                <input
+                  type="text"
+                  id="texto"
+                  class="form-control"
+                  placeholder="Digita tu detino ejemplo:el caguan"
                 />
               </div>
               <div class="form-group mt-4">
-                <label for="password" class="form-label">Password</label>
+                <label for="date" class="form-label">Fecha de viaje</label>
                 <input
-                  type="password"
-                  id="password"
+                  type="date"
+                  id="date"
                   class="form-control"
-                  placeholder="Your Password"
+                  placeholder="ingresa fecha de salida"
                 />
               </div>
               <input
                 class="btn btn-primary mt-10 block w-full"
                 type="submit"
-                value="Ingresar"
+                value="Click aqui"
               />
-              <p class="mt-6 text-center">
-                Can't <a class="text-dark">log in</a>?
-                <a class="text-dark" href="/signup">Sign up</a> for create account
-              </p>
             </form>
           </div>
         </div>
         <SigninSlider
           client:load
-          title=" No te olvides contamos<br /> con tigo"
+          title="<br /> Un citio para que conozcas de forma segura tu ruta <br />facil solo das un click"
         />
       </div>
     </div>

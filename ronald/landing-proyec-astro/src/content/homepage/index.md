@@ -5,7 +5,7 @@ banner:
   image: /images/paradero-gale.png
   button:
     label: Ver rutas
-    link: "#"
+    link: "/rutas"
     enable: true
 
 ##key features

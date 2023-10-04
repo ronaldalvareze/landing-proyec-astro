@@ -9,17 +9,13 @@
       "url": "/about"
     },
     {
-      "name": "Pages",
+      "name": "Ingreso de despachador",
       "url": "#",
       "hasChildren": true,
       "children": [
         {
           "name": "Ingreso despachador",
           "url": "/signin"
-        },
-        {
-          "name": "Terminos y condiciones",
-          "url": "/terms-and-conditions"
         }
       ]
     },
@@ -31,12 +27,21 @@
 
   "footer": [
     {
+      "name": "Page Principal",
+      "url": "/"
+    },
+
+    {
       "name": "Quienes somos",
       "url": "/about"
     },
     {
       "name": "Reclamo o felicitacion",
       "url": "/contact"
+    },
+    {
+      "name": "Terminos y condiciones",
+      "url": "/terms-and-conditions"
     }
   ]
 }

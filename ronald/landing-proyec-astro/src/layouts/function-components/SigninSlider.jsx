@@ -41,7 +41,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/despachos-1.png"
                 alt=""
               />
             </SwiperSlide>
@@ -50,7 +50,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/despachos-2.png"
                 alt=""
               />
             </SwiperSlide>
@@ -59,7 +59,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/despachos-3.png"
                 alt=""
               />
             </SwiperSlide>

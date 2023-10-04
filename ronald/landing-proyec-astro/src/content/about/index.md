@@ -12,19 +12,19 @@ buttons:
 
 # counter
 counter:
-  - name: "Customers"
-    number: 25
+  - name: "Conductores"
+    number: 500
     messurment: M
     color: " #a4366c"
-  - name: "Customers"
+  - name: "Vehiculos"
     number: 440
     messurment: M
     color: " #e2b5c7"
-  - name: "Customers"
+  - name: " Rutas"
     number: 50
     messurment: K
     color: "#7fa6f5"
-  - name: "Customers"
+  - name: "Municipios"
     number: 20
     messurment: K
     color: " #afa1e6"
@@ -72,15 +72,19 @@ members:
       image: "/images/users/conduc-2.png"
     - name: Josue
       field: Taxista
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
+      image: "/images/users/condu-3.png"
+    - name: Agustin Moreno
+      field: Conductor Intermunicipal
+      image: "/images/users/conductor-4.png"
+    - name: Agustin Moreno
+      field: Conductor Intermunicipal
+      image: "/images/users/conductor-5.png"
     - name: Ortrin Okaster
       field: Software Engineer
-      image: "/images/users/user-3.png"
+      image: "/images/users/conductor-6.png"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+El propósito de este proyecto es actualizar de manera ágil y publicitaria el servicio de transporte.  utilizando las nuevas tecnologías, dándole al usuario la facilidad de conocer horarios, despachos, vehículos y conductores.
+Con el fin de mitigar el porcentaje de la falta del conocimiento de que ruta se debe ir,en algunos casos a los visitantes a nuestro municipio y el  transporte con su respectiva hora de salida, dando así una gran alternativa para todos.
+Mejorando la percepción por parte de los usuarios.
+
+

@@ -10,73 +10,60 @@ import SigninSlider from "@layouts/function-components/SigninSlider.jsx";
         <div class="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
           <div class="mx-auto w-full max-w-[480px]">
             <img class="mb-8" src="/images/sigin-des.png" alt="" />
-            <h1 class="mb-4">Crear ingreso despachador</h1>
-            <p>Recuerda eres muy importante para nosotros</p>
+            <h1 class="mb-4">Tu ruta</h1>
+            <p>Solo el camino seguro te lleva a los tuyos</p>
             <div
               class="relative my-8 text-center after:absolute after:left-0 after:top-1/2 after:z-[0] after:w-full after:border-b after:border-border after:content-['']"
             >
               <span class="relative z-[1] inline-block bg-white px-2"
-                >Ingresa tus datos personales</span
+                >Sujeto a modificaciones por fuerza mayor o natural</span
               >
             </div>
 
             <form action="#">
               <div class="form-group">
-                <label for="name" class="form-label">Nombre completo</label>
+                <label for="name" class="form-label">Ciudad o Municipio</label>
                 <input
                   type="text"
-                  id="name"
+                  id="city"
                   class="form-control"
-                  placeholder="Ingresa tu nombre completo"
+                  placeholder="Digita tu Origen ejemplo: Garzon"
+                />
+                <label for="name" class="form-label">Destino</label>
+                <input
+                  type="text"
+                  id="texto"
+                  class="form-control"
+                  placeholder="Digita tu detino ejemplo:el caguan"
+                />
+                <label for="name" class="form-label">Destino</label>
+                <input
+                  type="text"
+                  id="texto"
+                  class="form-control"
+                  placeholder="Digita tu detino ejemplo:el caguan"
                 />
               </div>
               <div class="form-group mt-4">
-                <label for="numeroCedula" class="form-label">Numero de documento</label>
+                <label for="date" class="form-label">Fecha de viaje</label>
                 <input
-                  type="text"
-                  id="numeroCedula"
+                  type="date"
+                  id="date"
                   class="form-control"
-                  placeholder="Ingrese su número de cedula"
+                  placeholder="ingresa fecha de salida"
                 />
               </div>
-              <div class="form-group mt-4">
-                <label for="password" class="form-label">Password</label>
-                <input
-                  type="password"
-                  id="password"
-                  class="form-control"
-                  placeholder="Ingresa una"
-                />
-              </div>
-            <div class="form-group mt-4">
-              <label for="email" class="form-label">Correo electronico</label>
-              <input
-                type="email"
-                id="email"
-                class="form-control"
-                placeholder="Ingresa un correo valido"
-              />
-              <div class="form-group mt-4">
-                <label for="usuario" class="form-label">Usuario</label>
-                <input
-                  type="text"
-                  id="usuario"
-                  class="form-control"
-                  placeholder="Ingrese un Usuario"
-                />
-              </div>
-            </div>
               <input
                 class="btn btn-primary mt-10 block w-full"
                 type="submit"
-                value="Crear despachador"
+                value="Click aqui"
               />
             </form>
           </div>
         </div>
         <SigninSlider
           client:load
-          title="Das un paso al mundo <br /> de la innovacion"
+          title="<br /> Un citio para que conozcas de forma segura tu ruta <br />facil solo das un click"
         />
       </div>
     </div>

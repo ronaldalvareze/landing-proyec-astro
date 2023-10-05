@@ -50,13 +50,31 @@ const page_data = {
             action={contact_form_action}
             method="POST"
           >
+          <div class="form-group mt-4">
+            <label for="numeroCedula" class="form-label">Numero de documento</label>
+            <input
+              type="text"
+              id="numeroCedula"
+              class="form-control"
+              placeholder="Ingrese su número de cedula"
+            />
+          </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="name">Full Name</label>
+              <label class="form-label" for="name">Nombre Completo</label>
               <input
                 class="form-control"
                 type="text"
                 id="name"
-                placeholder="Your Full Name"
+                placeholder="Ingresa tu nombre completo"
+              />
+            </div>
+            <div class="form-group mt-4">
+              <label for="telefono" class="form-label">Número de Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                class="form-control"
+                placeholder="Ingrese su número de teléfono"
               />
             </div>
             <div class="form-group mb-5">
@@ -65,17 +83,17 @@ const page_data = {
                 class="form-control"
                 type="text"
                 id="email"
-                placeholder="Your  Email Address"
+                placeholder="Ingresa tu correo electronico"
               />
             </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="reason">Reason/Purpose</label>
-              <select name="reason" id="reason" class="form-select" required>
-                <option value="">Placa del vehiculo</option>
-                <option value="investment plane">Investment Plan</option>
-                <option value="investment plane-2">Investment Plan 2</option>
-                <option value="investment plane-3">Investment Plan 3</option>
-              </select>
+            <div class="form-group mt-4">
+              <label for="placa" class="form-label">Placa Vehicular</label>
+              <input
+                type="text"
+                id="placa"
+                class="form-control"
+                placeholder="Ingrese la placa del vehículo"
+              />
             </div>
             <div class="form-group mb-5">
               <label class="form-label" for="message">Ingresa el motivo </label>

@@ -1,4 +1,4 @@
 ---
 title: Contact
-page_title: Get’n touch with Our </br> Pinwheel team
+page_title: Aqui prodras</br> Presentar una queja o Felicitacion.
 ---
